@@ -134,7 +134,7 @@ a {
 }
 
 .hero {
-    align-items: center;
+    align-items: start;
     background:
         radial-gradient(
             circle at 76% 30%,
@@ -236,9 +236,10 @@ a {
 }
 
 .hero-logo {
-    align-items: center;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
+    padding-top: 70px;
 }
 
 .hero-logo img {

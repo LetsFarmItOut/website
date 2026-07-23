@@ -267,10 +267,10 @@ a {
 }
 
 .hero-badge {
-    bottom: -160px;
+    bottom: -90px;
     filter: drop-shadow(0 20px 35px rgba(0, 0, 0, 0.75));
     position: absolute;
-    right: max(25px, calc((100% - var(--maximum-width)) / 2));
+    right: max(35px, calc((100% - var(--maximum-width)) / 2));
     width: min(34vw, 510px);
     z-index: 10;
 }

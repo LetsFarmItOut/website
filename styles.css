@@ -267,7 +267,7 @@ a {
 }
 
 .hero-badge {
-    bottom: -90px;
+    bottom: -70px;
     filter: drop-shadow(0 20px 35px rgba(0, 0, 0, 0.75));
     position: absolute;
     right: max(35px, calc((100% - var(--maximum-width)) / 2));

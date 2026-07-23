@@ -5,7 +5,7 @@ const navigationLinks=document.querySelectorAll('.main-navigation a');
 const sections=document.querySelectorAll('main section[id]');
 
 // Replace # with your permanent Discord invite link.
-const discordInviteUrl='#';
+const discordInviteUrl='https://discord.gg/hr62q6Gey';
 document.querySelectorAll('[data-discord-link]').forEach(link=>{link.href=discordInviteUrl;});
 
 if(menuButton&&navigation){menuButton.addEventListener('click',()=>{const isOpen=navigation.classList.toggle('is-open');menuButton.setAttribute('aria-expanded',String(isOpen));document.body.classList.toggle('menu-open',isOpen);});navigationLinks.forEach(link=>link.addEventListener('click',()=>{navigation.classList.remove('is-open');menuButton.setAttribute('aria-expanded','false');document.body.classList.remove('menu-open');}));}

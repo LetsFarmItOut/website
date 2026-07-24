@@ -519,9 +519,10 @@ a {
 }
 
 .footer-watermark img {
-    height: auto;
-    opacity: 0.20;
     width: 44px;
+    height: auto;
+    opacity: 1;
+    filter: brightness(0.9);
 }
 
 .footer-right p {

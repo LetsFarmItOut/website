@@ -716,4 +716,15 @@ a {
 }
 }
 
+.text-link-inline {
+    color: var(--green-bright);
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.text-link-inline:hover {
+    color: var(--green);
+    text-decoration: underline;
+}
 

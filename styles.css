@@ -693,15 +693,27 @@ a {
         gap: 26px;
     }
 
-    .footer-right {
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-    }
+.footer-right {
+    align-items: center;
+    display: flex;
+    gap: 22px;
+}
 
-    .footer-right p {
-        text-align: right;
-    }
+.footer-watermark {
+    flex: 0 0 auto;
+}
+
+.footer-watermark img {
+    width: 44px;
+    height: auto;
+    opacity: 1;
+    filter: brightness(0.9);
+}
+
+.footer-right p {
+    font-size: 0.82rem;
+    text-align: right;
+}
 }
 
 

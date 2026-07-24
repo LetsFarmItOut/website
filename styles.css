@@ -508,7 +508,23 @@ a {
     text-transform: uppercase;
 }
 
-.site-footer > p {
+.footer-right {
+    align-items: center;
+    display: flex;
+    gap: 22px;
+}
+
+.footer-watermark {
+    flex: 0 0 auto;
+}
+
+.footer-watermark img {
+    height: auto;
+    opacity: 0.05;
+    width: 44px;
+}
+
+.footer-right p {
     font-size: 0.82rem;
     text-align: right;
 }
@@ -676,28 +692,15 @@ a {
         gap: 26px;
     }
 
-    .site-footer > p {
-        text-align: left;
+    .footer-right {
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .footer-right p {
+        text-align: right;
     }
 }
 
-/* ==========================
-   Orca Watermark
-   ========================== */
 
-.footer-watermark {
-    margin: 12px 0 8px;
-    text-align: center;
-}
-
-.footer-watermark img {
-    width: 16px;
-    height: auto;
-    opacity: 0.035;
-    filter: grayscale(100%) brightness(1.4);
-    transition: opacity 0.3s ease;
-}
-
-.footer-watermark img:hover {
-    opacity: 0.10;
-}

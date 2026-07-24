@@ -680,3 +680,24 @@ a {
         text-align: left;
     }
 }
+
+/* ==========================
+   Orca Watermark
+   ========================== */
+
+.orca-watermark {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0 20px;
+    user-select: none;
+}
+
+.orca-watermark img {
+    width: 60px;
+    opacity: 0.03;
+    transition: opacity 0.4s ease;
+}
+
+.orca-watermark:hover img {
+    opacity: 0.12;
+}
